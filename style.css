@@ -55,6 +55,11 @@ a {
   border-radius: 50%;
 }
 
+#avatar:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 #btn {
   background-color: #406882;
   border-radius: 4px;
